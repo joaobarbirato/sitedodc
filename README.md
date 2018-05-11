@@ -9,6 +9,7 @@
 ## Estrutura do sistema
 ...
 
-
-
- 
+## Instalação das dependências
+```
+npm install
+```
