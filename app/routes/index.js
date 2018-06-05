@@ -19,6 +19,8 @@ exports = module.exports = function (app) {
 	// Áreas
 	app.get('/area/docente', routes.views.area_docente.index)
 
+	// Extensão
+	app.get('/extensao/grupos', routes.views.extensao.index);
 
 	/* Exemplo de páginas com passagem de parâmetros pela url */
 	// app.get('/blog/:category?', routes.views.blog);
